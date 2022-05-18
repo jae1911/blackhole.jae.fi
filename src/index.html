@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blackhole</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>Blackhole</h1>
+
+    <h2>Explanation</h2>
+    <p>Blackhole is the codename for the current infrastructure at dn0.eu, hosting Matrix servers, Gitlab instances, S3 storage spaces and websites (such as jae.fi or the very website your are viewing right now).</p>
+    <p>This page is just as a description of that infrastructure.</p>
+
+    <hr />
+
+    <h2>Routers</h2>
+    <h3>NODEMASTER (FRA)</h3>
+    <p>This machine is a BGP router running Debian and hosted in Germany by <a target="_blank" rel="noreferrer" href="https://ifog.ch/de">iFog Gmbh</a>.</p>
+    <p>It also has WireGuard running on it to provide connectivity to my personal computers and phones to internal services.</p>
+
+    <hr />
+
+    <h2>Nodes</h2>
+    <p>All nodes marked with HEL are hosted in Helsinki at an undisclosed location.</p>
+
+    <h3>ANANKE (HEL)</h3>
+    <p>This is the machine that runs mostly static websites, blogs, pads and VaultWarden.</p>
+
+    <h3>PHOBOS (HEL)</h3>
+    <p>This machine is handling all Matrix related traffic from servers to media repos. It is one of the beefiest machines of the infrastructure (behind TRITON).</p>
+
+    <h3>PANDORA (HEL)</h3>
+    <p>This is the big storage box, having a MinIO server running on it and handling all the storage for most applications.</p>
+
+    <h3>TRITON (HEL)</h3>
+    <p>This machine is handling everything related to hosted GitLab instances, it is the most beefy machine of the infrastructure.</p>
+
+    <h3>CHARON (HEL)</h3>
+    <p>This machine is handling traffic related to emails.</p>
+</body>
+</html>
