@@ -48,7 +48,7 @@ a, a:visited {
     radial-gradient(2px 2px at 160px 120px, #ddd, rgba(0,0,0,0));
   background-repeat: repeat;
   background-size: 200px 200px;
-  animation: zoom 5s infinite;
+  animation: zoom 15s infinite;
   opacity: 0;
 }
 
